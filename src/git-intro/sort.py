@@ -1,8 +1,8 @@
-def bubbleSort(toSort):
-    for i in range(len(toSort)):
-        for j in range(i, len(toSort)):
-            if toSort[i] > toSort[j]:
-                toSort[i], toSort[j] = toSort[j], toSort[i]
-    return toSort
+def bubble_sort(to_sort):
+    for i in range(len(to_sort)):
+        for j in range(i, len(to_sort)):
+            if to_sort[i] > to_sort[j]:
+                to_sort[i], to_sort[j] = to_sort[j], to_sort[i]
+    return to_sort
 
-print(bubbleSort([2, 7, 6, 12, 1, 9, 4, 7, 3]))
+print(bubble_sort([2, 7, 6, 12, 1, 9, 4, 7, 3]))
